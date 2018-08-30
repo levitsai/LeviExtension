@@ -20,6 +20,27 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func activeActivity(_ sender: Any) {
+        
+        
+        
+        
+        let activity = UIActivityViewController(activityItems: [UIImage(named: "smile.png")], applicationActivities: nil)
+        activity.excludedActivityTypes = [UIActivityType.airDrop]
+        activity.completionWithItemsHandler = activityCompleteBlock
+        
+        self.present(activity, animated: true) {
+            print("complete")
+        }
+        
+    }
+    
+    func activityCompleteBlock( activityType: UIActivityType?, completed: Bool, returnedItems: [Any]?, activityError: Error?) -> Void {
+    
+    }
+    
+    @IBAction func sharedAction(_ sender: Any) {
+    }
+    
 }
 
