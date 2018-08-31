@@ -29,9 +29,14 @@ class ActionViewController: UIViewController {
                     provider.loadItem(forTypeIdentifier: kUTTypeImage as String, options: nil, completionHandler: { (imageURL, error) in
                         OperationQueue.main.addOperation {
                             if let strongImageView = weakImageView {
-                                if let imageURL = imageURL as? URL {
-                                    strongImageView.image = UIImage(data: try! Data(contentsOf: imageURL))
+//                                if let imageURL = imageURL as? URL {
+//                                    strongImageView.image = UIImage(data: try! Data(contentsOf: imageURL))
+//                                }
+                                
+                                if let imageURL = imageURL as? UIImage {
+                                    strongImageView.image = imageURL
                                 }
+                                
                             }
                         }
                     })

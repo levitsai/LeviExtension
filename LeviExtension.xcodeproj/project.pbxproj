@@ -7,43 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E85640721391B2F00A1397C /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E85640621391B2F00A1397C /* ActionViewController.swift */; };
+		8E85640A21391B2F00A1397C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E85640821391B2F00A1397C /* MainInterface.storyboard */; };
+		8E85640E21391B2F00A1397C /* SupportAll.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8E85640421391B2F00A1397C /* SupportAll.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8E85641921391B4000A1397C /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E85641821391B4000A1397C /* ActionViewController.swift */; };
+		8E85641C21391B4000A1397C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E85641A21391B4000A1397C /* MainInterface.storyboard */; };
+		8E85642021391B4000A1397C /* Text.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8E85641621391B4000A1397C /* Text.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8E85642B21391B5700A1397C /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E85642A21391B5700A1397C /* ActionViewController.swift */; };
+		8E85642E21391B5700A1397C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E85642C21391B5700A1397C /* MainInterface.storyboard */; };
+		8E85643221391B5700A1397C /* Image.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8E85642821391B5700A1397C /* Image.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8E85643D21391B6200A1397C /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E85643C21391B6200A1397C /* ActionViewController.swift */; };
+		8E85644021391B6200A1397C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E85643E21391B6200A1397C /* MainInterface.storyboard */; };
+		8E85644421391B6200A1397C /* URL.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8E85643A21391B6200A1397C /* URL.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8EF070152137C66E00694055 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF070142137C66E00694055 /* AppDelegate.swift */; };
 		8EF070172137C66E00694055 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF070162137C66E00694055 /* ViewController.swift */; };
 		8EF0701A2137C66E00694055 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF070182137C66E00694055 /* Main.storyboard */; };
 		8EF0701C2137C67000694055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF0701B2137C67000694055 /* Assets.xcassets */; };
 		8EF0701F2137C67000694055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF0701D2137C67000694055 /* LaunchScreen.storyboard */; };
-		8EF0702E2137D09200694055 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0702D2137D09200694055 /* ActionViewController.swift */; };
-		8EF070312137D09200694055 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF0702F2137D09200694055 /* MainInterface.storyboard */; };
-		8EF070352137D09200694055 /* Action1ExtensionWUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8EF0702B2137D09200694055 /* Action1ExtensionWUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		8EF070412137D76B00694055 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF070402137D76B00694055 /* ShareViewController.swift */; };
-		8EF070442137D76B00694055 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF070422137D76B00694055 /* MainInterface.storyboard */; };
-		8EF070482137D76B00694055 /* LeviShareExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8EF0703E2137D76B00694055 /* LeviShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		8EF070762137DC5900694055 /* ActionRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF070752137DC5900694055 /* ActionRequestHandler.swift */; };
-		8EF070782137DC5900694055 /* Action.js in Resources */ = {isa = PBXBuildFile; fileRef = 8EF070772137DC5900694055 /* Action.js */; };
-		8EF0707C2137DC5900694055 /* Action2ExtensionWOUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8EF070732137DC5900694055 /* Action2ExtensionWOUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8EF070332137D09200694055 /* PBXContainerItemProxy */ = {
+		8E85640C21391B2F00A1397C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8EF070092137C66E00694055 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8EF0702A2137D09200694055;
-			remoteInfo = Action1ExtensionWUI;
+			remoteGlobalIDString = 8E85640321391B2F00A1397C;
+			remoteInfo = "LeviExtension+SupportAll";
 		};
-		8EF070462137D76B00694055 /* PBXContainerItemProxy */ = {
+		8E85641E21391B4000A1397C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8EF070092137C66E00694055 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8EF0703D2137D76B00694055;
-			remoteInfo = LeviShareExtension;
+			remoteGlobalIDString = 8E85641521391B4000A1397C;
+			remoteInfo = "LeviExtension+String";
 		};
-		8EF0707A2137DC5900694055 /* PBXContainerItemProxy */ = {
+		8E85643021391B5700A1397C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8EF070092137C66E00694055 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8EF070722137DC5900694055;
-			remoteInfo = Action2ExtensionWOUI;
+			remoteGlobalIDString = 8E85642721391B5700A1397C;
+			remoteInfo = "LeviExtension+Image";
+		};
+		8E85644221391B6200A1397C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EF070092137C66E00694055 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E85643921391B6200A1397C;
+			remoteInfo = "LeviExtension+URL";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -54,9 +64,10 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				8EF0707C2137DC5900694055 /* Action2ExtensionWOUI.appex in Embed App Extensions */,
-				8EF070482137D76B00694055 /* LeviShareExtension.appex in Embed App Extensions */,
-				8EF070352137D09200694055 /* Action1ExtensionWUI.appex in Embed App Extensions */,
+				8E85640E21391B2F00A1397C /* SupportAll.appex in Embed App Extensions */,
+				8E85643221391B5700A1397C /* Image.appex in Embed App Extensions */,
+				8E85644421391B6200A1397C /* URL.appex in Embed App Extensions */,
+				8E85642021391B4000A1397C /* Text.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,6 +75,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8E85640421391B2F00A1397C /* SupportAll.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SupportAll.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E85640621391B2F00A1397C /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		8E85640921391B2F00A1397C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		8E85640B21391B2F00A1397C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E85641621391B4000A1397C /* Text.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Text.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E85641821391B4000A1397C /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		8E85641B21391B4000A1397C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		8E85641D21391B4000A1397C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E85642821391B5700A1397C /* Image.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Image.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E85642A21391B5700A1397C /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		8E85642D21391B5700A1397C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		8E85642F21391B5700A1397C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E85643A21391B6200A1397C /* URL.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = URL.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E85643C21391B6200A1397C /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		8E85643F21391B6200A1397C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		8E85644121391B6200A1397C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EF070112137C66E00694055 /* LeviExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeviExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF070142137C66E00694055 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EF070162137C66E00694055 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,43 +98,38 @@
 		8EF0701B2137C67000694055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EF0701E2137C67000694055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EF070202137C67000694055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8EF0702B2137D09200694055 /* Action1ExtensionWUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Action1ExtensionWUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		8EF0702D2137D09200694055 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
-		8EF070302137D09200694055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		8EF070322137D09200694055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8EF0703E2137D76B00694055 /* LeviShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LeviShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		8EF070402137D76B00694055 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
-		8EF070432137D76B00694055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		8EF070452137D76B00694055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8EF070732137DC5900694055 /* Action2ExtensionWOUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Action2ExtensionWOUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		8EF070752137DC5900694055 /* ActionRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionRequestHandler.swift; sourceTree = "<group>"; };
-		8EF070772137DC5900694055 /* Action.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Action.js; sourceTree = "<group>"; };
-		8EF070792137DC5900694055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8E85640121391B2F00A1397C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E85641321391B4000A1397C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E85642521391B5700A1397C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E85643721391B6200A1397C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8EF0700E2137C66E00694055 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8EF070282137D09200694055 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8EF0703B2137D76B00694055 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8EF070702137DC5900694055 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -117,13 +139,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E85640521391B2F00A1397C /* LeviExtension+SupportAll */ = {
+			isa = PBXGroup;
+			children = (
+				8E85640621391B2F00A1397C /* ActionViewController.swift */,
+				8E85640821391B2F00A1397C /* MainInterface.storyboard */,
+				8E85640B21391B2F00A1397C /* Info.plist */,
+			);
+			path = "LeviExtension+SupportAll";
+			sourceTree = "<group>";
+		};
+		8E85641721391B4000A1397C /* LeviExtension+String */ = {
+			isa = PBXGroup;
+			children = (
+				8E85641821391B4000A1397C /* ActionViewController.swift */,
+				8E85641A21391B4000A1397C /* MainInterface.storyboard */,
+				8E85641D21391B4000A1397C /* Info.plist */,
+			);
+			path = "LeviExtension+String";
+			sourceTree = "<group>";
+		};
+		8E85642921391B5700A1397C /* LeviExtension+Image */ = {
+			isa = PBXGroup;
+			children = (
+				8E85642A21391B5700A1397C /* ActionViewController.swift */,
+				8E85642C21391B5700A1397C /* MainInterface.storyboard */,
+				8E85642F21391B5700A1397C /* Info.plist */,
+			);
+			path = "LeviExtension+Image";
+			sourceTree = "<group>";
+		};
+		8E85643B21391B6200A1397C /* LeviExtension+URL */ = {
+			isa = PBXGroup;
+			children = (
+				8E85643C21391B6200A1397C /* ActionViewController.swift */,
+				8E85643E21391B6200A1397C /* MainInterface.storyboard */,
+				8E85644121391B6200A1397C /* Info.plist */,
+			);
+			path = "LeviExtension+URL";
+			sourceTree = "<group>";
+		};
 		8EF070082137C66E00694055 = {
 			isa = PBXGroup;
 			children = (
 				8EF070132137C66E00694055 /* LeviExtension */,
-				8EF0702C2137D09200694055 /* Action1ExtensionWUI */,
-				8EF0703F2137D76B00694055 /* LeviShareExtension */,
-				8EF070742137DC5900694055 /* Action2ExtensionWOUI */,
+				8E85640521391B2F00A1397C /* LeviExtension+SupportAll */,
+				8E85641721391B4000A1397C /* LeviExtension+String */,
+				8E85642921391B5700A1397C /* LeviExtension+Image */,
+				8E85643B21391B6200A1397C /* LeviExtension+URL */,
 				8EF070122137C66E00694055 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -132,9 +195,10 @@
 			isa = PBXGroup;
 			children = (
 				8EF070112137C66E00694055 /* LeviExtension.app */,
-				8EF0702B2137D09200694055 /* Action1ExtensionWUI.appex */,
-				8EF0703E2137D76B00694055 /* LeviShareExtension.appex */,
-				8EF070732137DC5900694055 /* Action2ExtensionWOUI.appex */,
+				8E85640421391B2F00A1397C /* SupportAll.appex */,
+				8E85641621391B4000A1397C /* Text.appex */,
+				8E85642821391B5700A1397C /* Image.appex */,
+				8E85643A21391B6200A1397C /* URL.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,39 +216,77 @@
 			path = LeviExtension;
 			sourceTree = "<group>";
 		};
-		8EF0702C2137D09200694055 /* Action1ExtensionWUI */ = {
-			isa = PBXGroup;
-			children = (
-				8EF0702D2137D09200694055 /* ActionViewController.swift */,
-				8EF0702F2137D09200694055 /* MainInterface.storyboard */,
-				8EF070322137D09200694055 /* Info.plist */,
-			);
-			path = Action1ExtensionWUI;
-			sourceTree = "<group>";
-		};
-		8EF0703F2137D76B00694055 /* LeviShareExtension */ = {
-			isa = PBXGroup;
-			children = (
-				8EF070402137D76B00694055 /* ShareViewController.swift */,
-				8EF070422137D76B00694055 /* MainInterface.storyboard */,
-				8EF070452137D76B00694055 /* Info.plist */,
-			);
-			path = LeviShareExtension;
-			sourceTree = "<group>";
-		};
-		8EF070742137DC5900694055 /* Action2ExtensionWOUI */ = {
-			isa = PBXGroup;
-			children = (
-				8EF070752137DC5900694055 /* ActionRequestHandler.swift */,
-				8EF070772137DC5900694055 /* Action.js */,
-				8EF070792137DC5900694055 /* Info.plist */,
-			);
-			path = Action2ExtensionWOUI;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8E85640321391B2F00A1397C /* SupportAll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E85640F21391B2F00A1397C /* Build configuration list for PBXNativeTarget "SupportAll" */;
+			buildPhases = (
+				8E85640021391B2F00A1397C /* Sources */,
+				8E85640121391B2F00A1397C /* Frameworks */,
+				8E85640221391B2F00A1397C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SupportAll;
+			productName = "LeviExtension+SupportAll";
+			productReference = 8E85640421391B2F00A1397C /* SupportAll.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		8E85641521391B4000A1397C /* Text */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E85642121391B4000A1397C /* Build configuration list for PBXNativeTarget "Text" */;
+			buildPhases = (
+				8E85641221391B4000A1397C /* Sources */,
+				8E85641321391B4000A1397C /* Frameworks */,
+				8E85641421391B4000A1397C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Text;
+			productName = "LeviExtension+String";
+			productReference = 8E85641621391B4000A1397C /* Text.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		8E85642721391B5700A1397C /* Image */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E85643321391B5700A1397C /* Build configuration list for PBXNativeTarget "Image" */;
+			buildPhases = (
+				8E85642421391B5700A1397C /* Sources */,
+				8E85642521391B5700A1397C /* Frameworks */,
+				8E85642621391B5700A1397C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Image;
+			productName = "LeviExtension+Image";
+			productReference = 8E85642821391B5700A1397C /* Image.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		8E85643921391B6200A1397C /* URL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E85644521391B6200A1397C /* Build configuration list for PBXNativeTarget "URL" */;
+			buildPhases = (
+				8E85643621391B6200A1397C /* Sources */,
+				8E85643721391B6200A1397C /* Frameworks */,
+				8E85643821391B6200A1397C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = URL;
+			productName = "LeviExtension+URL";
+			productReference = 8E85643A21391B6200A1397C /* URL.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		8EF070102137C66E00694055 /* LeviExtension */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EF070232137C67000694055 /* Build configuration list for PBXNativeTarget "LeviExtension" */;
@@ -197,65 +299,15 @@
 			buildRules = (
 			);
 			dependencies = (
-				8EF070342137D09200694055 /* PBXTargetDependency */,
-				8EF070472137D76B00694055 /* PBXTargetDependency */,
-				8EF0707B2137DC5900694055 /* PBXTargetDependency */,
+				8E85640D21391B2F00A1397C /* PBXTargetDependency */,
+				8E85641F21391B4000A1397C /* PBXTargetDependency */,
+				8E85643121391B5700A1397C /* PBXTargetDependency */,
+				8E85644321391B6200A1397C /* PBXTargetDependency */,
 			);
 			name = LeviExtension;
 			productName = LeviExtension;
 			productReference = 8EF070112137C66E00694055 /* LeviExtension.app */;
 			productType = "com.apple.product-type.application";
-		};
-		8EF0702A2137D09200694055 /* Action1ExtensionWUI */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8EF070362137D09200694055 /* Build configuration list for PBXNativeTarget "Action1ExtensionWUI" */;
-			buildPhases = (
-				8EF070272137D09200694055 /* Sources */,
-				8EF070282137D09200694055 /* Frameworks */,
-				8EF070292137D09200694055 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Action1ExtensionWUI;
-			productName = Action1ExtensionWUI;
-			productReference = 8EF0702B2137D09200694055 /* Action1ExtensionWUI.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
-		8EF0703D2137D76B00694055 /* LeviShareExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8EF070492137D76B00694055 /* Build configuration list for PBXNativeTarget "LeviShareExtension" */;
-			buildPhases = (
-				8EF0703A2137D76B00694055 /* Sources */,
-				8EF0703B2137D76B00694055 /* Frameworks */,
-				8EF0703C2137D76B00694055 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = LeviShareExtension;
-			productName = LeviShareExtension;
-			productReference = 8EF0703E2137D76B00694055 /* LeviShareExtension.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
-		8EF070722137DC5900694055 /* Action2ExtensionWOUI */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8EF0707D2137DC5900694055 /* Build configuration list for PBXNativeTarget "Action2ExtensionWOUI" */;
-			buildPhases = (
-				8EF0706F2137DC5900694055 /* Sources */,
-				8EF070702137DC5900694055 /* Frameworks */,
-				8EF070712137DC5900694055 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Action2ExtensionWOUI;
-			productName = Action2ExtensionWOUI;
-			productReference = 8EF070732137DC5900694055 /* Action2ExtensionWOUI.appex */;
-			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -267,16 +319,19 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = LeviTsai;
 				TargetAttributes = {
+					8E85640321391B2F00A1397C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					8E85641521391B4000A1397C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					8E85642721391B5700A1397C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					8E85643921391B6200A1397C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 					8EF070102137C66E00694055 = {
-						CreatedOnToolsVersion = 9.4.1;
-					};
-					8EF0702A2137D09200694055 = {
-						CreatedOnToolsVersion = 9.4.1;
-					};
-					8EF0703D2137D76B00694055 = {
-						CreatedOnToolsVersion = 9.4.1;
-					};
-					8EF070722137DC5900694055 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
@@ -295,14 +350,47 @@
 			projectRoot = "";
 			targets = (
 				8EF070102137C66E00694055 /* LeviExtension */,
-				8EF0702A2137D09200694055 /* Action1ExtensionWUI */,
-				8EF0703D2137D76B00694055 /* LeviShareExtension */,
-				8EF070722137DC5900694055 /* Action2ExtensionWOUI */,
+				8E85640321391B2F00A1397C /* SupportAll */,
+				8E85641521391B4000A1397C /* Text */,
+				8E85642721391B5700A1397C /* Image */,
+				8E85643921391B6200A1397C /* URL */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8E85640221391B2F00A1397C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E85640A21391B2F00A1397C /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E85641421391B4000A1397C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E85641C21391B4000A1397C /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E85642621391B5700A1397C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E85642E21391B5700A1397C /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E85643821391B6200A1397C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E85644021391B6200A1397C /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8EF0700F2137C66E00694055 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -313,33 +401,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8EF070292137D09200694055 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8EF070312137D09200694055 /* MainInterface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8EF0703C2137D76B00694055 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8EF070442137D76B00694055 /* MainInterface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8EF070712137DC5900694055 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8EF070782137DC5900694055 /* Action.js in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8E85640021391B2F00A1397C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E85640721391B2F00A1397C /* ActionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E85641221391B4000A1397C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E85641921391B4000A1397C /* ActionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E85642421391B5700A1397C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E85642B21391B5700A1397C /* ActionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E85643621391B6200A1397C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E85643D21391B6200A1397C /* ActionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8EF0700D2137C66E00694055 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -349,51 +445,64 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8EF070272137D09200694055 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8EF0702E2137D09200694055 /* ActionViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8EF0703A2137D76B00694055 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8EF070412137D76B00694055 /* ShareViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8EF0706F2137DC5900694055 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8EF070762137DC5900694055 /* ActionRequestHandler.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8EF070342137D09200694055 /* PBXTargetDependency */ = {
+		8E85640D21391B2F00A1397C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8EF0702A2137D09200694055 /* Action1ExtensionWUI */;
-			targetProxy = 8EF070332137D09200694055 /* PBXContainerItemProxy */;
+			target = 8E85640321391B2F00A1397C /* SupportAll */;
+			targetProxy = 8E85640C21391B2F00A1397C /* PBXContainerItemProxy */;
 		};
-		8EF070472137D76B00694055 /* PBXTargetDependency */ = {
+		8E85641F21391B4000A1397C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8EF0703D2137D76B00694055 /* LeviShareExtension */;
-			targetProxy = 8EF070462137D76B00694055 /* PBXContainerItemProxy */;
+			target = 8E85641521391B4000A1397C /* Text */;
+			targetProxy = 8E85641E21391B4000A1397C /* PBXContainerItemProxy */;
 		};
-		8EF0707B2137DC5900694055 /* PBXTargetDependency */ = {
+		8E85643121391B5700A1397C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8EF070722137DC5900694055 /* Action2ExtensionWOUI */;
-			targetProxy = 8EF0707A2137DC5900694055 /* PBXContainerItemProxy */;
+			target = 8E85642721391B5700A1397C /* Image */;
+			targetProxy = 8E85643021391B5700A1397C /* PBXContainerItemProxy */;
+		};
+		8E85644321391B6200A1397C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E85643921391B6200A1397C /* URL */;
+			targetProxy = 8E85644221391B6200A1397C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		8E85640821391B2F00A1397C /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E85640921391B2F00A1397C /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		8E85641A21391B4000A1397C /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E85641B21391B4000A1397C /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		8E85642C21391B5700A1397C /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E85642D21391B5700A1397C /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		8E85643E21391B6200A1397C /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E85643F21391B6200A1397C /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		8EF070182137C66E00694055 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -410,25 +519,161 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		8EF0702F2137D09200694055 /* MainInterface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8EF070302137D09200694055 /* Base */,
-			);
-			name = MainInterface.storyboard;
-			sourceTree = "<group>";
-		};
-		8EF070422137D76B00694055 /* MainInterface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8EF070432137D76B00694055 /* Base */,
-			);
-			name = MainInterface.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8E85641021391B2F00A1397C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54685A85RW;
+				INFOPLIST_FILE = "LeviExtension+SupportAll/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Levi.Example.swift.AWSDemo.LeviExtension.LeviExtension-SupportAll";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E85641121391B2F00A1397C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54685A85RW;
+				INFOPLIST_FILE = "LeviExtension+SupportAll/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Levi.Example.swift.AWSDemo.LeviExtension.LeviExtension-SupportAll";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8E85642221391B4000A1397C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54685A85RW;
+				INFOPLIST_FILE = "LeviExtension+String/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Levi.Example.swift.AWSDemo.LeviExtension.LeviExtension-String";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E85642321391B4000A1397C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54685A85RW;
+				INFOPLIST_FILE = "LeviExtension+String/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Levi.Example.swift.AWSDemo.LeviExtension.LeviExtension-String";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8E85643421391B5700A1397C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54685A85RW;
+				INFOPLIST_FILE = "LeviExtension+Image/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Levi.Example.swift.AWSDemo.LeviExtension.LeviExtension-Image";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E85643521391B5700A1397C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54685A85RW;
+				INFOPLIST_FILE = "LeviExtension+Image/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Levi.Example.swift.AWSDemo.LeviExtension.LeviExtension-Image";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8E85644621391B6200A1397C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54685A85RW;
+				INFOPLIST_FILE = "LeviExtension+URL/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Levi.Example.swift.AWSDemo.LeviExtension.LeviExtension-URL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E85644721391B6200A1397C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54685A85RW;
+				INFOPLIST_FILE = "LeviExtension+URL/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Levi.Example.swift.AWSDemo.LeviExtension.LeviExtension-URL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		8EF070212137C67000694055 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -555,7 +800,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Levi.Example.swift.AWSDemo.LeviExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = Levi.Example.swift.LeviExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -574,122 +819,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Levi.Example.swift.AWSDemo.LeviExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = Levi.Example.swift.LeviExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		8EF070372137D09200694055 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 54685A85RW;
-				INFOPLIST_FILE = Action1ExtensionWUI/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Levi.Example.swift.AWSDemo.LeviExtension.Action1ExtensionWUI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		8EF070382137D09200694055 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 54685A85RW;
-				INFOPLIST_FILE = Action1ExtensionWUI/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Levi.Example.swift.AWSDemo.LeviExtension.Action1ExtensionWUI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		8EF0704A2137D76B00694055 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 54685A85RW;
-				INFOPLIST_FILE = LeviShareExtension/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Levi.Example.swift.AWSDemo.LeviExtension.LeviShareExtension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		8EF0704B2137D76B00694055 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 54685A85RW;
-				INFOPLIST_FILE = LeviShareExtension/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Levi.Example.swift.AWSDemo.LeviExtension.LeviShareExtension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		8EF0707E2137DC5900694055 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 54685A85RW;
-				INFOPLIST_FILE = Action2ExtensionWOUI/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Levi.Example.swift.AWSDemo.LeviExtension.Action2ExtensionWOUI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		8EF0707F2137DC5900694055 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 54685A85RW;
-				INFOPLIST_FILE = Action2ExtensionWOUI/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Levi.Example.swift.AWSDemo.LeviExtension.Action2ExtensionWOUI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -698,6 +829,42 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8E85640F21391B2F00A1397C /* Build configuration list for PBXNativeTarget "SupportAll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E85641021391B2F00A1397C /* Debug */,
+				8E85641121391B2F00A1397C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E85642121391B4000A1397C /* Build configuration list for PBXNativeTarget "Text" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E85642221391B4000A1397C /* Debug */,
+				8E85642321391B4000A1397C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E85643321391B5700A1397C /* Build configuration list for PBXNativeTarget "Image" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E85643421391B5700A1397C /* Debug */,
+				8E85643521391B5700A1397C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E85644521391B6200A1397C /* Build configuration list for PBXNativeTarget "URL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E85644621391B6200A1397C /* Debug */,
+				8E85644721391B6200A1397C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8EF0700C2137C66E00694055 /* Build configuration list for PBXProject "LeviExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -712,33 +879,6 @@
 			buildConfigurations = (
 				8EF070242137C67000694055 /* Debug */,
 				8EF070252137C67000694055 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8EF070362137D09200694055 /* Build configuration list for PBXNativeTarget "Action1ExtensionWUI" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8EF070372137D09200694055 /* Debug */,
-				8EF070382137D09200694055 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8EF070492137D76B00694055 /* Build configuration list for PBXNativeTarget "LeviShareExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8EF0704A2137D76B00694055 /* Debug */,
-				8EF0704B2137D76B00694055 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8EF0707D2137DC5900694055 /* Build configuration list for PBXNativeTarget "Action2ExtensionWOUI" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8EF0707E2137DC5900694055 /* Debug */,
-				8EF0707F2137DC5900694055 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

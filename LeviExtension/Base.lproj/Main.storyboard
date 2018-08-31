@@ -1,15 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0mZ-et-G5O">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="OiM-B6-tmN">
+            <objects>
+                <navigationController toolbarHidden="NO" id="0mZ-et-G5O" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Jqf-zs-Hye">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="TGI-H7-WVL">
+                        <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="UQC-Wj-HgU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0ya-jx-k1q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1017" y="32"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -18,40 +39,60 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eMD-MX-YJ8">
-                                <rect key="frame" x="118" y="65" width="124" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Action w UI"/>
-                                <connections>
-                                    <action selector="activeActivity:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q5Y-X2-8jQ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gau-de-FB7">
-                                <rect key="frame" x="161" y="168" width="50" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="share"/>
-                                <connections>
-                                    <action selector="sharedAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e8V-5e-UM8"/>
-                                </connections>
-                            </button>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DpC-tD-NJC">
-                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eMD-MX-YJ8">
+                                <rect key="frame" x="20" y="84" width="335" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="dzH-vC-5cN"/>
+                                    <constraint firstAttribute="height" constant="30" id="AOy-wn-NBg"/>
                                 </constraints>
-                                <items>
-                                    <barButtonItem systemItem="action" id="w3Y-64-CTD"/>
-                                </items>
-                            </toolbar>
+                                <state key="normal" title="Trigger String Extension"/>
+                                <connections>
+                                    <action selector="stringExtesnionAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fAz-e8-4P7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Sd-yp-x1N">
+                                <rect key="frame" x="20" y="134" width="335" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="qav-3o-v6k"/>
+                                </constraints>
+                                <state key="normal" title="Tigger URL Extension"/>
+                                <connections>
+                                    <action selector="urlExtesnionAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="roZ-42-coT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gau-de-FB7">
+                                <rect key="frame" x="20" y="184" width="335" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="YbM-0u-qay"/>
+                                </constraints>
+                                <state key="normal" title="Trigger Image Extension"/>
+                                <connections>
+                                    <action selector="imageExtesnionAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IRV-TD-KPT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="DpC-tD-NJC" secondAttribute="bottom" id="K7C-Ca-0Hz"/>
-                            <constraint firstAttribute="trailing" secondItem="DpC-tD-NJC" secondAttribute="trailing" id="Z0c-Nc-Xpp"/>
-                            <constraint firstItem="DpC-tD-NJC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="unk-WH-ae7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eMD-MX-YJ8" secondAttribute="trailing" constant="20" id="5IH-1g-ffS"/>
+                            <constraint firstItem="Gau-de-FB7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="AC8-Yo-U1t"/>
+                            <constraint firstItem="eMD-MX-YJ8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="GG8-Ax-LhA"/>
+                            <constraint firstItem="2Sd-yp-x1N" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="N1d-cO-4P5"/>
+                            <constraint firstItem="Gau-de-FB7" firstAttribute="top" secondItem="2Sd-yp-x1N" secondAttribute="bottom" constant="20" id="N6E-lb-axS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2Sd-yp-x1N" secondAttribute="trailing" constant="20" id="NET-h6-VpC"/>
+                            <constraint firstItem="eMD-MX-YJ8" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="20" id="VSY-13-zmj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Gau-de-FB7" secondAttribute="trailing" constant="20" id="XiW-hP-GF5"/>
+                            <constraint firstItem="2Sd-yp-x1N" firstAttribute="top" secondItem="eMD-MX-YJ8" secondAttribute="bottom" constant="20" id="c3Y-C9-egw"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <toolbarItems>
+                        <barButtonItem systemItem="action" id="w3Y-64-CTD">
+                            <connections>
+                                <action selector="sharedAction:" destination="BYZ-38-t0r" id="4Hg-E9-Ww2"/>
+                            </connections>
+                        </barButtonItem>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" id="YjR-Zt-jhc"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
