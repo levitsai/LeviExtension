@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E16D5F0213C30A300A88B10 /* ActionRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E16D5EF213C30A300A88B10 /* ActionRequestHandler.swift */; };
+		8E16D5F2213C30A300A88B10 /* Action.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E16D5F1213C30A300A88B10 /* Action.js */; };
+		8E16D5F6213C30A300A88B10 /* ActionWithNoUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8E16D5ED213C30A200A88B10 /* ActionWithNoUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8E85640721391B2F00A1397C /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E85640621391B2F00A1397C /* ActionViewController.swift */; };
 		8E85640A21391B2F00A1397C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E85640821391B2F00A1397C /* MainInterface.storyboard */; };
 		8E85640E21391B2F00A1397C /* SupportAll.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8E85640421391B2F00A1397C /* SupportAll.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -27,6 +30,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		8E16D5F4213C30A300A88B10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EF070092137C66E00694055 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E16D5EC213C30A200A88B10;
+			remoteInfo = ActionWithNoUI;
+		};
 		8E85640C21391B2F00A1397C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8EF070092137C66E00694055 /* Project object */;
@@ -67,6 +77,7 @@
 				8E85640E21391B2F00A1397C /* SupportAll.appex in Embed App Extensions */,
 				8E85643221391B5700A1397C /* Image.appex in Embed App Extensions */,
 				8E85644421391B6200A1397C /* URL.appex in Embed App Extensions */,
+				8E16D5F6213C30A300A88B10 /* ActionWithNoUI.appex in Embed App Extensions */,
 				8E85642021391B4000A1397C /* Text.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
@@ -75,6 +86,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8E16D5ED213C30A200A88B10 /* ActionWithNoUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ActionWithNoUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E16D5EF213C30A300A88B10 /* ActionRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionRequestHandler.swift; sourceTree = "<group>"; };
+		8E16D5F1213C30A300A88B10 /* Action.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Action.js; sourceTree = "<group>"; };
+		8E16D5F3213C30A300A88B10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E85640421391B2F00A1397C /* SupportAll.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SupportAll.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E85640621391B2F00A1397C /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
 		8E85640921391B2F00A1397C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
@@ -101,6 +116,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8E16D5EA213C30A200A88B10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8E85640121391B2F00A1397C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -139,6 +161,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E16D5EE213C30A300A88B10 /* ActionWithNoUI */ = {
+			isa = PBXGroup;
+			children = (
+				8E16D5EF213C30A300A88B10 /* ActionRequestHandler.swift */,
+				8E16D5F1213C30A300A88B10 /* Action.js */,
+				8E16D5F3213C30A300A88B10 /* Info.plist */,
+			);
+			path = ActionWithNoUI;
+			sourceTree = "<group>";
+		};
 		8E85640521391B2F00A1397C /* LeviExtension+SupportAll */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +219,7 @@
 				8E85641721391B4000A1397C /* LeviExtension+String */,
 				8E85642921391B5700A1397C /* LeviExtension+Image */,
 				8E85643B21391B6200A1397C /* LeviExtension+URL */,
+				8E16D5EE213C30A300A88B10 /* ActionWithNoUI */,
 				8EF070122137C66E00694055 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -199,6 +232,7 @@
 				8E85641621391B4000A1397C /* Text.appex */,
 				8E85642821391B5700A1397C /* Image.appex */,
 				8E85643A21391B6200A1397C /* URL.appex */,
+				8E16D5ED213C30A200A88B10 /* ActionWithNoUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -219,6 +253,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8E16D5EC213C30A200A88B10 /* ActionWithNoUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E16D5F9213C30A300A88B10 /* Build configuration list for PBXNativeTarget "ActionWithNoUI" */;
+			buildPhases = (
+				8E16D5E9213C30A200A88B10 /* Sources */,
+				8E16D5EA213C30A200A88B10 /* Frameworks */,
+				8E16D5EB213C30A200A88B10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ActionWithNoUI;
+			productName = ActionWithNoUI;
+			productReference = 8E16D5ED213C30A200A88B10 /* ActionWithNoUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		8E85640321391B2F00A1397C /* SupportAll */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E85640F21391B2F00A1397C /* Build configuration list for PBXNativeTarget "SupportAll" */;
@@ -303,6 +354,7 @@
 				8E85641F21391B4000A1397C /* PBXTargetDependency */,
 				8E85643121391B5700A1397C /* PBXTargetDependency */,
 				8E85644321391B6200A1397C /* PBXTargetDependency */,
+				8E16D5F5213C30A300A88B10 /* PBXTargetDependency */,
 			);
 			name = LeviExtension;
 			productName = LeviExtension;
@@ -319,6 +371,9 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = LeviTsai;
 				TargetAttributes = {
+					8E16D5EC213C30A200A88B10 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 					8E85640321391B2F00A1397C = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -354,11 +409,20 @@
 				8E85641521391B4000A1397C /* Text */,
 				8E85642721391B5700A1397C /* Image */,
 				8E85643921391B6200A1397C /* URL */,
+				8E16D5EC213C30A200A88B10 /* ActionWithNoUI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8E16D5EB213C30A200A88B10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E16D5F2213C30A300A88B10 /* Action.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8E85640221391B2F00A1397C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -404,6 +468,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8E16D5E9213C30A200A88B10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E16D5F0213C30A300A88B10 /* ActionRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8E85640021391B2F00A1397C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -448,6 +520,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		8E16D5F5213C30A300A88B10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E16D5EC213C30A200A88B10 /* ActionWithNoUI */;
+			targetProxy = 8E16D5F4213C30A300A88B10 /* PBXContainerItemProxy */;
+		};
 		8E85640D21391B2F00A1397C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8E85640321391B2F00A1397C /* SupportAll */;
@@ -522,18 +599,56 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8E16D5F7213C30A300A88B10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XPVHQT72G;
+				INFOPLIST_FILE = ActionWithNoUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Levi.Example.swift.LeviExtension.ActionWithNoUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E16D5F8213C30A300A88B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XPVHQT72G;
+				INFOPLIST_FILE = ActionWithNoUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Levi.Example.swift.LeviExtension.ActionWithNoUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		8E85641021391B2F00A1397C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 54685A85RW;
+				DEVELOPMENT_TEAM = 9XPVHQT72G;
 				INFOPLIST_FILE = "LeviExtension+SupportAll/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Levi.Example.swift.AWSDemo.LeviExtension.LeviExtension-SupportAll";
+				PRODUCT_BUNDLE_IDENTIFIER = "Levi.Example.swift.LeviExtension.LeviExtension-SupportAll";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -545,14 +660,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 54685A85RW;
+				DEVELOPMENT_TEAM = 9XPVHQT72G;
 				INFOPLIST_FILE = "LeviExtension+SupportAll/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Levi.Example.swift.AWSDemo.LeviExtension.LeviExtension-SupportAll";
+				PRODUCT_BUNDLE_IDENTIFIER = "Levi.Example.swift.LeviExtension.LeviExtension-SupportAll";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -564,14 +679,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 54685A85RW;
+				DEVELOPMENT_TEAM = 9XPVHQT72G;
 				INFOPLIST_FILE = "LeviExtension+String/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Levi.Example.swift.AWSDemo.LeviExtension.LeviExtension-String";
+				PRODUCT_BUNDLE_IDENTIFIER = "Levi.Example.swift.LeviExtension.LeviExtension-String";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -583,14 +698,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 54685A85RW;
+				DEVELOPMENT_TEAM = 9XPVHQT72G;
 				INFOPLIST_FILE = "LeviExtension+String/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Levi.Example.swift.AWSDemo.LeviExtension.LeviExtension-String";
+				PRODUCT_BUNDLE_IDENTIFIER = "Levi.Example.swift.LeviExtension.LeviExtension-String";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -602,14 +717,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 54685A85RW;
+				DEVELOPMENT_TEAM = 9XPVHQT72G;
 				INFOPLIST_FILE = "LeviExtension+Image/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Levi.Example.swift.AWSDemo.LeviExtension.LeviExtension-Image";
+				PRODUCT_BUNDLE_IDENTIFIER = "Levi.Example.swift.LeviExtension.LeviExtension-Image";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -621,14 +736,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 54685A85RW;
+				DEVELOPMENT_TEAM = 9XPVHQT72G;
 				INFOPLIST_FILE = "LeviExtension+Image/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Levi.Example.swift.AWSDemo.LeviExtension.LeviExtension-Image";
+				PRODUCT_BUNDLE_IDENTIFIER = "Levi.Example.swift.LeviExtension.LeviExtension-Image";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -640,14 +755,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 54685A85RW;
+				DEVELOPMENT_TEAM = 9XPVHQT72G;
 				INFOPLIST_FILE = "LeviExtension+URL/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Levi.Example.swift.AWSDemo.LeviExtension.LeviExtension-URL";
+				PRODUCT_BUNDLE_IDENTIFIER = "Levi.Example.swift.LeviExtension.LeviExtension-URL";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -659,14 +774,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 54685A85RW;
+				DEVELOPMENT_TEAM = 9XPVHQT72G;
 				INFOPLIST_FILE = "LeviExtension+URL/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Levi.Example.swift.AWSDemo.LeviExtension.LeviExtension-URL";
+				PRODUCT_BUNDLE_IDENTIFIER = "Levi.Example.swift.LeviExtension.LeviExtension-URL";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -794,7 +909,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 54685A85RW;
+				DEVELOPMENT_TEAM = 9XPVHQT72G;
 				INFOPLIST_FILE = LeviExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -813,7 +928,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 54685A85RW;
+				DEVELOPMENT_TEAM = 9XPVHQT72G;
 				INFOPLIST_FILE = LeviExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -829,6 +944,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8E16D5F9213C30A300A88B10 /* Build configuration list for PBXNativeTarget "ActionWithNoUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E16D5F7213C30A300A88B10 /* Debug */,
+				8E16D5F8213C30A300A88B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8E85640F21391B2F00A1397C /* Build configuration list for PBXNativeTarget "SupportAll" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
